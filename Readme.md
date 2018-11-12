@@ -1,6 +1,7 @@
 # Retrofit2 + Rxjava2 封装
+![avatar](https://img.shields.io/badge/maplretrofit-v1.0-green.svg)
 
-### funture
+### 功能
 * demo
 ```java
    gankApi = RetrofitFactory.create().baseUrl("http://gank.io").build().create(GankApi.class);
