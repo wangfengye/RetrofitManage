@@ -2,6 +2,10 @@
 ![avatar](https://img.shields.io/badge/maplretrofit-v1.0-green.svg)
 
 ### 功能
+* 引入
+```
+ implementation 'com.github.wangfengye:RetrofitManage:v1.0'
+ ```
 * demo
 ```java
    gankApi = RetrofitFactory.create().baseUrl("http://gank.io").build().create(GankApi.class);
