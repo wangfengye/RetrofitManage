@@ -48,3 +48,12 @@
 ```java
       OkHttpFactory.setCookie(builder,getApplicationContext())
 ```
+
+* 下载返回进度(`DownloadObserver`)
+
+> Rxjava的订阅线程需设置为IO线程
+ 
+* 上传文件 `UploadPartUtil`(分为是否返回进度的两种版本)
+
+> 由于retrofit本身是不支持文件上传进度显示,因此返回进度的版本重写了retrofit请求体,这部分未使用Rxjava2的返回体,详情
+见MainActivity中的Demo
