@@ -4,7 +4,7 @@
 ### 功能
 * 引入
 ```
- implementation 'com.github.wangfengye:RetrofitManage:v1.0'
+ implementation 'com.github.wangfengye:RetrofitManage:v1.1'
  ```
 * demo
 ```java
